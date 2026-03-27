@@ -5,7 +5,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-credentials',
-                    url: 'https://github.com/AndrejGockov/kiii-jenkins-github-actions-gitlab-cicd-homeworkhttps://github.com/your-username/my-nginx-app.git'
+                    url: 'https://github.com/AndrejGockov/kiii-jenkins-github-actions-gitlab-cicd-homework.git'
             }
         }
         stage('Build image') {
